@@ -1,0 +1,18 @@
+# Hiver — gitignore
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.uv/
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.zip
+.env
+.DS_Store
+.ipynb_checkpoints/
+out.jsonl
+*.log
+# keep models and index for reviewer convenience, but they are also regenerable via make train/index (2s)
+# data/index/*.pkl
+# models/*.pkl
+# eval/human_labels.csv is needed for agreement evidence — do not ignore
