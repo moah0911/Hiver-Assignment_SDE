@@ -118,15 +118,7 @@ Top 5 modes + hypotheses in `REPORT.md:5`. Mandatory "What's misleading" section
 
 See `REPORT.md:7` or `docs/decision_log.md` (if present). Includes: AmazonHelp over AppleSupport, 8 vs 77 intents, time-split 80/20 vs cutoff, TF-IDF balanced vs DistilBERT, BM25+TF-IDF hybrid α=0.7 k=3 (MiniLM intended but fallback to TF-IDF for CPU), threshold 0.55, hybrid vs dense-only, language→other, retrieval from train only, judge ultra > generator, safety guard optional, weak labels 5000 not 500.
 
-## What Next (1 week)
-
-Larger golden 400 with 2 annotators, active learning for rare, human A/B, PII guard via safety-guard-8b-v3, cost/latency, KG grounding to policy docs.
-
 ## Cite
 
 Borrowed: `rank_bm25`, `scikit-learn`, `sentence-transformers` (optional), `openai` for NVIDIA, `langdetect`, KaggleHub. No code copied without attribution. See `REPORT.md:1` for references.
-
-## Submission
-
-Repo public/private + report via https://intelligent-bar-256.notion.site/39492cbf0da2800682cfc78a600a745f — include repo link and report.
 
